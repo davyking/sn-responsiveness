@@ -1,0 +1,440 @@
+/* BLASSENweb CSS information */
+/* Theme Classes */
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Arial CE", 'Helvetica CE', Arial, lucida, sans-serif;
+  font-size: 84%;
+  _font-size: 74%; /* for IE */
+  background: #fbfbfb;
+  width: 100%;
+  margin: 0px 0px 0px 0px;/* top-right-bottom-left */
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.bgbody {
+  background-image: url("../images/back.gif");
+  background-repeat: repeat;
+}
+
+/*************************************** new **********************/
+
+#container2009bw    {width: 1024px;
+               height: 321px;
+               background: url("http://www.slavistickenoviny.cz/themes/SN2009/pictures/bg.jpg") repeat-x;
+               text-align: center;
+               margin: auto;
+               }
+
+
+#header2009bw       {background: url("http://www.slavistickenoviny.cz/themes/SN2009/pictures/header.jpg") no-repeat;
+               width: 1024px;
+               height: 261px;
+               text-align: center}
+
+.logo2009bw         {margin-left: 60;
+               margin-top: 73;
+               float: left;}
+               
+#player2009bw       {float: left;
+          margin: 70 0 0 64}
+
+#menu_right2009bw li,
+#menu_left2009bw li         {background: url("http://www.slavistickenoviny.cz/themes/SN2009/pictures/button.jpg") no-repeat;
+                             width: 130px;
+                             height: 24px;
+                             text-align: center;
+                             list-style: none;
+                             font-size: 14px ;
+                             font-weight: bold;
+                             font-family: Corbel;
+                             color: white ;
+                             float: left;
+                             margin: 0 4 0 4}
+               
+#menu_right2009bw a,
+#menu_left2009bw a       {background: url("http://www.slavistickenoviny.cz/themes/SN2009/pictures/button.jpg") no-repeat;
+                       width: 130px;
+                       height: 24px;
+                       text-align: center;
+                       list-style: none;
+                       font-size: 14px ;
+                       font-weight: bold;
+                       font-family: Corbel;
+                       color: white ;
+                       float: left;
+                       text-decoration: none}
+
+#menu_right2009bw a:hover, 
+#menu_left2009bw a:hover    {background: url("http://www.slavistickenoviny.cz/themes/SN2009/pictures/button_a.jpg") no-repeat;
+                          width: 130px;
+                          height: 24px;
+                          text-align: center;
+                          list-style: none;
+                          font-size: 14px ;
+                          font-weight: bold;
+                          font-family: Corbel;
+                          color: white;
+                          float: left;
+              border: 0px;
+              text-decoration: none;}
+         
+#menu_left2009bw     { width: auto;
+                       height: 24px;
+                       float: left;
+                       margin-top: 6;}
+
+#menu_right2009bw   {margin-top: 6;
+                     float: right;
+                     width: auto;
+                     height: 24px;}
+                     
+#banner       {margin: 1 0 3 2;
+        font-size: 20px;
+        padding-top: 20px;
+               height: 60px;
+               width: 468px;
+               float: left}                     
+
+/*************************************** end new **********************/
+
+
+FONT, TD, BODY, P, DIV {
+  font-family : Arial, sans-serif; 
+  font-size : 12px;
+    /*Font-weight: normal;*/
+}
+
+/*pod rameckem se upravuje ohraniceni bloku */
+.ramecek {
+  margin: 0;
+  padding: 0;
+  border-left: 2px solid #DF3826;
+  border-right: 2px solid #DF3826;
+    border-top: 2px solid #DF3826;
+  border-bottom: 2px solid #DF3826;
+}
+
+h3 {
+  PADDING-RIGHT: 0px; PADDING-LEFT: 2px; FONT-SIZE: 110%; PADDING-BOTTOM: 3px; MARGIN: 0; COLOR: #ff0000; PADDING-TOP: 3px;
+}
+
+.topic {
+position : relative; 
+} 
+.topic_img {
+position : absolute; 
+top : -30px; 
+right : 7px; 
+}
+
+/* footer */
+.footer_menu {
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+  padding-top: .3em;
+  padding-bottom: .3em; 
+}
+
+.footer_menu a.hjbw {
+  font-family : Arial, sans-serif; 
+  font-size : 12px;
+  color : #000000; 
+  font-weight : normal; 
+  text-decoration : none;
+}
+
+.hjbw {
+  font-family : Arial, sans-serif; 
+  font-size : 12px;
+  color : #000000; 
+  font-weight : normal; 
+  text-decoration : none;
+}
+
+.blok {
+    Background-color: #EEEEEE;
+}
+
+.blok-logo {
+    background-image: url("http://www.slavistickenoviny.cz/themes/SN2009/pictures/block.gif");
+    width: 170px;
+  height: 30px;
+  text-align: left;
+}
+
+.footer_menu a {
+  /*display: inline;block*/
+  padding: 0px 1px 0px 1px;
+  color: #DF3826;
+  /*border-bottom: 1px dashed #5591cc;*/
+}
+.footer_menu a:hover {
+  border-bottom: 1px dashed #da251d;
+  text-decoration: none;
+  color : #DF3826;
+  background: #fbfbfb;
+}
+
+
+/* inputs */
+INPUT, TEXTAREA, SELECT, BUTTON {
+      Font-family: Verdana, Helvetica;
+      Font-size: 12px;
+      Color: #000000;
+      Background-color: #fbfbfb;
+      Border-width: 1px;
+      Border-style: solid;
+      Padding: 0;
+      Margin: 0;
+      Border-color: #DF3826;
+}
+
+FORM {
+      Font-family: Verdana, Helvetica;
+      Font-size: 12px;
+}
+
+/* Due to IE display bug,
+you can specify special style
+for radio in forms below.*/
+input.un_radio {
+      Background-Color: transparent;
+      Border-width: 0px;
+      Border-style: none;
+}
+hr{border: 0px solid #DF3826;border-top-width:2px;height:2px}
+
+
+
+/* odkazy */
+
+.logo_left {
+position: absolute; top: 24px; left: 15px; width: 182px; height: 138px; z-index: 1;
+}
+.button_jedna, .button_dva, .button_tri, .button_ctyri {
+z-index: 1;
+position: absolute;
+width: 219px;
+height: 51px;
+padding-left: 25px; 
+padding-top: 8px; 
+background: url("http://www.slavistickenoviny.cz/themes/SN2009/buttons/button_blank.gif") no-repeat;
+}
+.button_jedna {
+top: 36px; right: 550px; _right: 570px;
+}
+.button_dva {
+top: 74px; right: 530px; _right: 550px;
+}
+.button_tri {
+top: 112px; right: 510px; _right: 530px;
+}
+.button_ctyri {
+top: 150px; right: 490px; _right: 510px;
+}
+
+
+
+.noborder a {
+border: 0px;
+margin: 0;
+padding:0;
+}
+
+a {
+font-family : Arial, sans-serif; 
+color : #DF3826; 
+text-decoration : none; 
+} 
+a:active {
+font-family : Arial, sans-serif; 
+color : #DF3826; 
+text-decoration : none; 
+} 
+a:visited {
+font-family : Arial, sans-serif; 
+color : #DF3826; 
+text-decoration : none; 
+} 
+a:hover {
+font-family : Arial, sans-serif; 
+  border-bottom: 1px dashed #0000dd;
+  text-decoration: none;
+  color : #DF3826;
+} 
+
+a.edit {
+font-family : Arial, sans-serif; 
+color : #fff; 
+text-decoration : none; 
+} 
+a.edit:active {
+font-family : Arial, sans-serif; 
+color : #fff; 
+text-decoration : none; 
+} 
+a.edit:visited {
+font-family : Arial, sans-serif; 
+color : #fff; 
+text-decoration : none; 
+} 
+a.edit:hover {
+font-family : Arial, sans-serif; 
+  text-decoration: underline;
+  color : #fff;
+} 
+a.no, .no:active, .no:visited { /* odkaz header */
+      Color: #ffffff;
+      Font-size: 17px;
+      Font-family: Verdana, Helvetica;
+      Text-decoration: none;
+      Font-weight: bold;
+}
+
+a.no:hover {/* odkaz header */
+      Color: #ffffff;
+      Font-size: 17px;
+      Font-family: Verdana, Helvetica;
+  border-bottom: 0px dashed #0000dd;
+  text-decoration: none;
+      Font-weight: bold;
+}
+ 
+/* United-Nuke Classes */
+.title {
+font-family : Arial, sans-serif; 
+background : none; 
+color : #DF3826; 
+font-size : 16px; 
+font-weight : bold; 
+text-decoration : none; 
+} 
+.menutitle {
+font-family : Arial, sans-serif; 
+background : none; 
+color : #DF3826; 
+font-size : 13px; 
+font-weight : bold; 
+text-decoration : none; 
+} 
+.storytitle {
+font-family : Arial, sans-serif; 
+background-color : #DF3826; 
+color : #034D86; 
+font-size : 13px; 
+font-weight : bold; 
+} 
+.content {
+font-family : Arial, sans-serif; 
+background-color : transparent; 
+color : #000000; 
+font-size : 12px; 
+} 
+.storycat {
+font-family : Arial, sans-serif; 
+background : none; 
+color : #000000; 
+font-size : 13px; 
+font-weight : bold; 
+text-decoration : none; 
+} 
+.boxtitle {
+font-family : Arial, sans-serif; 
+background-color : #fbfbfb; 
+color : #DF3826; 
+font-size : 12px; 
+font-weight : bold; 
+} 
+.boxcontent {
+font-family : Arial, sans-serif; 
+background-color : #fbfbfb; 
+color : #000000; 
+font-size : 11px; 
+} 
+.blockitem {
+font-family : Arial, sans-serif; 
+background-color : #fbfbfb; 
+color : #000000; 
+font-size : 12px; 
+} 
+.option {
+font-family : Arial, sans-serif; 
+background : none; 
+color : #DF3826; 
+font-size : 14px; 
+font-weight : bold; 
+text-decoration : none; 
+} 
+.tiny {
+font-family : Arial, sans-serif; 
+background : none; 
+color : #000000; 
+font-size : 10px; 
+font-weight : normal; 
+text-decoration : none; 
+} 
+/* Quote & Code blocks */
+.code {
+font-family : Courier, 'Courier New', sans-serif; 
+font-size : 11px; 
+color : #006600; 
+background-color : #fafafa; 
+border : #DF3826; 
+border-style : solid; 
+border-left-width : 1px; 
+border-top-width : 1px; 
+border-right-width : 1px; 
+border-bottom-width : 1px; 
+}
+
+
+/* ---------- SLUFU ---------- */
+.slufu_tips {
+  width:20px;
+  height:20px;
+  border:none;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='images/slufu/tips.png');
+  }
+.slufu_tips[class] {
+  background-image:url(images/slufu/tips.png);
+}
+
+a.un_story_title_link, .un_story_title_link:active, .un_story_title_link:visited { /* odkaz jako titulek */
+      Color: #ffffff;
+      Font-size: 17px;
+      Font-family: Verdana, Helvetica;
+      Text-decoration: none;
+      Font-weight: bold;
+}
+
+a.un_story_title_link:hover {/* odkaz aktivni titulek */
+      Color: #ffffff;
+      Font-size: 17px;
+      Font-family: Verdana, Helvetica;
+  border-bottom: 1px dashed #ffffff;
+  text-decoration: none;
+      Font-weight: bold;
+}
+
+font.un_story_title_text { /* titulek pokud nen� odkaz */
+      Color: #ffffff;
+      Font-size: 17px;
+      Font-family: Verdana, Helvetica;
+      Text-decoration: none;
+      Font-weight: bold;
+}
+
+font.articlefile_title { /* nadpis clanku */
+      Color: #ffffff;
+      Font-size: 17px;
+      Font-family: Verdana, Helvetica;
+      Font-weight: bold;
+}
