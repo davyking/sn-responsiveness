@@ -424,7 +424,7 @@ a.un_story_title_link:hover {/* odkaz aktivni titulek */
       Font-weight: bold;
 }
 
-font.un_story_title_text { /* titulek pokud nen� odkaz */
+font.un_story_title_text { /* titulek pokud není odkaz */
       Color: #ffffff;
       Font-size: 17px;
       Font-family: Verdana, Helvetica;
@@ -438,3 +438,139 @@ font.articlefile_title { /* nadpis clanku */
       Font-family: Verdana, Helvetica;
       Font-weight: bold;
 }
+
+.sidebar {
+  width: 170px;
+}
+
+.main-content {
+  width: 1024px;
+}
+
+@media screen and (max-width: 500px) {
+
+  FONT, .main-content div {
+    font-size: 17px !important;
+    text-align: left !important;
+  }
+  
+  #container2009bw, .main-content, #header2009bw {
+    width: auto;
+    height: auto;
+    width: 100%;
+  }
+
+  .main-content FONT {
+    padding: 0;
+  }
+
+  .main-content div {
+    box-sizing: border-box;
+  }
+
+  .banner {
+    width: 100% !important;
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  table, td, tbody, thead, tfoot, tr, th {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .sidebar {
+    width: auto;
+    display: none;
+    max-width: 170px;
+  }
+
+  #header2009bw {
+    background: none;
+  }
+
+  #header2009bw > a {
+    display: block;
+    text-align: center;
+  }
+
+  #header2009bw > a:hover {
+    height: auto;
+    border: none;
+  }
+
+  .logo2009bw {
+    margin: 1em auto;
+    float: none;
+  }
+
+  #banner {
+    display: none;
+  }
+
+  #menu_left2009bw, 
+  #menu_right2009bw {
+    width: 100%;
+    margin-top: 5px;
+    float: none;
+    height: auto;
+    overflow: hidden;
+  }
+
+  #menu_left2009bw {
+    margin-top: 5px;
+  }
+
+  #menu_left2009bw li, 
+  #menu_right2009bw li {
+    width: 48%;
+    background: #DF3826;
+    margin: 0 1%;
+    text-align: center;
+    padding: 10px 0 5px;
+  }
+
+  #menu_left2009bw li a, 
+  #menu_right2009bw li a {
+    background: none;
+    float: none;
+  }
+
+  #menu_left2009bw li a:hover,
+  #menu_right2009bw li a:hover {
+    background: none;
+    text-align: center;
+    float: none;
+  }
+
+  h3 a.un_story_title_link, h3 a.un_story_title_link:hover {
+    font-size: 16px;
+  }
+
+  .un_story_general_link, a.un_story_general_link:hover {
+    font-size: 16px;
+  }
+
+  table {
+    margin: 0;
+  }
+  
+  .fb_iframe_widget, iframe, .fb_iframe_widget * {
+    width: 100% !important;
+  }
+
+  #player2009bw {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 440px) {
+  .topic_img {
+    display: none;
+  }
+
+}
+
