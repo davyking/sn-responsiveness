@@ -50,4 +50,5 @@ echo "<meta name=\"rating\" content=\"general\">\n";
 ###############################################
 
 echo "<meta name=\"generator\" content=\"UNITED-NUKE 4.2ms2 Series (PHP-Nuke ".$Version_Num." compatible) - Copyright 2005 by Jiri Stavinoha - http://united-nuke.openland.cz v roce 2015 úprava CSS šablony Vojta Tranta, do kódu zadal David Ocetník\">\n";
+echo "<meta name=\"viewport\" content=\"width=device-width,inital-scale=1, user-scalable=no\">\n";
 ?>
