@@ -130,6 +130,7 @@ echo " </div>\n";
 echo " </div>\n";
 
 /* menu pod hlavičkou */
+/* S NOVÝM CSS SOUBOREM JE ROZHOZENÉ. TIPOVAČKA A FOTO JE VPRAVO MÍSTO V LEVO*/
 echo " <div id=\"menu_left2009bw\">\n";
 echo " <li><a href=\"http://tipovacka.slavistickenoviny.cz\">Tipovačka</a></li>\n";
 echo " <li><a href=\"http://foto.slavistickenoviny.cz\">Fotogalerie</a></li>\n";
